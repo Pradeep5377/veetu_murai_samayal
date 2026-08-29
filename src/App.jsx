@@ -1,5 +1,6 @@
 import React from "react";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // =============================
 // UPDATE THESE DETAILS
@@ -129,6 +130,7 @@ function App() {
         </div>
       </footer>
       <Analytics />
+      <SpeedInsights />
     </main>
   );
 }
