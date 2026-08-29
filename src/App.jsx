@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 // =============================
 // UPDATE THESE DETAILS
@@ -127,6 +128,7 @@ function App() {
           <p>வீட்டு சுவை... அன்பின் சுவை...</p>
         </div>
       </footer>
+      <Analytics />
     </main>
   );
 }
